@@ -1,868 +1,1342 @@
 <!DOCTYPE html>
 <html lang="en" data-ng-app="website">
-
-<head>
-
-
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Contacts</title>
-    <link rel="SHORTCUT ICON" href="mt-demo/79800/79832/mt-content/uploads/2019/04/favicon-1802.ico?_build=1635952195"
-        type="image/vnd.microsoft.icon" />
+    <link
+      rel="SHORTCUT ICON"
+      href="mt-demo/79800/79832/mt-content/uploads/2019/04/favicon-1802.ico?_build=1635952195"
+      type="image/vnd.microsoft.icon"
+    />
 
-
-    <link rel="canonical" href="https://template79832.motopreview.com/contacts/" />
+    <link
+      rel="canonical"
+      href="https://template79832.motopreview.com/contacts/"
+    />
     <meta property="og:title" content="Contacts" />
-    <meta property="og:url" content="https://template79832.motopreview.com/contacts/" />
+    <meta
+      property="og:url"
+      content="https://template79832.motopreview.com/contacts/"
+    />
     <meta property="og:type" content="website" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
-
-
-    <link rel="preload" as="font" type="font/woff2" crossorigin
-        href="https://template79832.motopreview.com/mt-includes/fonts/fontawesome-webfont.woff2?v=4.7.0">
-    <link rel="stylesheet" href="mt-includes/css/assets.min.css?_build=1633339793" />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossorigin
+      href="https://template79832.motopreview.com/mt-includes/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    />
+    <link
+      rel="stylesheet"
+      href="mt-includes/css/assets.min.css?_build=1633339793"
+    />
     <style>
-        @import url(//fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic|Poppins:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic&subset=latin);
+      @import url(//fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic|Poppins:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic&subset=latin);
     </style>
-    <link rel="stylesheet" href="mt-demo/79800/79832/mt-content/assets/styles.css?_build=1632936245"
-        id="moto-website-style" />
+    <link
+      rel="stylesheet"
+      href="mt-demo/79800/79832/mt-content/assets/styles.css?_build=1632936245"
+      id="moto-website-style"
+    />
+  </head>
 
-</head>
-
-<body class="moto-background moto-website_live">
-<div class="page">
-<header id="section-header" class="header moto-section" data-widget="section" data-container="section">
-<div class="moto-widget moto-widget-block moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-data-widget="block" data-spacing="saaa" style="" data-bg-position="left top">
-<div class="container-fluid">
-<div class="row">
-<div class="moto-cell col-sm-12" data-container="container">
-<div class="moto-widget moto-widget-container moto-container_header_5ab17a9c1"
-data-widget="container" data-container="container"
-data-css-name="moto-container_header_5ab17a9c1" data-bg-position="left top"
-data-moto-sticky="{ }">
-<div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-data-grid-type="sm" data-widget="row" data-spacing="aaaa" style=""
-data-bg-position="left top">
-<div class="container-fluid">
-<div class="row" data-container="container">
-<div class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-style="" data-widget="row.column" data-container="container"
-data-spacing="aaaa" data-bg-position="left top">
-<div class="moto-widget moto-widget-container moto-container_header_5ab17aaf2"
-data-widget="container" data-container="container"
-data-css-name="moto-container_header_5ab17aaf2"
-data-bg-position="left top">
-<div class="moto-widget moto-widget-row moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-data-grid-type="sm" data-widget="row" data-spacing="aaaa"
-style="background-image:url(mt-demo/79800/79832/mt-content/uploads/2018/05/mt-1802-line-menu.jpg);background-position:left top;background-repeat:repeat-x;background-size:auto;"
-data-bg-position="left top"
-data-bg-image="2018/05/mt-1802-line-menu.jpg">
-<div class="container-fluid">
-<div class="row" data-container="container">
-<div class="moto-widget moto-widget-row__column moto-cell col-sm-10 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-style="" data-widget="row.column"
-data-container="container" data-spacing="aaaa"
-data-bg-position="left top">
-<div data-widget-id="wid_1521580712_34yfou2bm"
-class="moto-widget moto-widget-menu moto-preset-default moto-align-center moto-align-center_mobile-h moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-data-preset="default" data-widget="menu">
-<a href="#"
-class="moto-widget-menu-toggle-btn"><i
-class="moto-widget-menu-toggle-btn-icon fa fa-bars"></i></a>
-<ul
-class="moto-widget-menu-list moto-widget-menu-list_horizontal">
-<li class="moto-widget-menu-item">
-   <a href="/" data-action="page"class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link">HOME</a>
-</li>
-<li class="moto-widget-menu-item">
-<a href="donate-blood.html" data-action="page"
-class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link">DONATE
-                                                                                    BLOOD</a>
-                                                                            </li>
-                                                                            <li class="moto-widget-menu-item">
-                                                                                <a href="donor-center-locations.html"
-                                                                                    data-action="page"
-                                                                                    class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link">DONOR
-                                                                                    CENTER LOCATIONS</a>
-                                                                            </li>
-                                                                            <li class="moto-widget-menu-item">
-                                                                                <a href="appointment.html"
-                                                                                    data-action="page"
-                                                                                    class="moto-widget-menu-link
-                                                                                     moto-widget-menu-link-level-1 moto-link">APPOINTMENT</a>
-                                                                            </li>
-                                                                            <li class="moto-widget-menu-item">
-                                                                                <a href="services.html" data-action="page"
-                                                                                    class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link">SERVICES</a>
-                                                                            </li>
-                                                                            <li
-                                                                                class="moto-widget-menu-item moto-widget-menu-item-has-submenu">
-                                                                                <a href="support-us.html"
-                                                                                    data-action="page"
-                                                                                    class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu moto-link">SUPPORT
-                                                                                    US<span
-                                                                                        class="fa moto-widget-menu-link-arrow"></span></a>
-                                                                                <ul class="moto-widget-menu-sublist">
-                                                                                    <li class="moto-widget-menu-item">
-                                                                                        <a href="urgent-cases.html"
-                                                                                            data-action="page"
-                                                                                            class="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link">Urgent
-                                                                                            Cases</a>
-                                                                                    </li>
-                                                                                </ul>
-
-                                                                            </li>
-                                                                            <li
-                                                                                class="moto-widget-menu-item moto-widget-menu-item-has-submenu">
-                                                                                <a href="about-us.html" data-action="page"
-                                                                                    class="moto-widget-menu-link moto-widget-menu-link-level-1
-                                                                                      moto-widget-menu-link-submenu moto-link">ABOUT
-                                                                                    US<span
-                                                                                        class="fa moto-widget-menu-link-arrow"></span></a>
-                                                                                <ul class="moto-widget-menu-sublist">
-                                                                                    <li class="moto-widget-menu-item">
-                                                                                        <a href="news.html"
-                                                                                            data-action="blog.index"
-                                                                                            class="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link">Blog</a>
-                                                                                    </li>
-                                                                                    <li class="moto-widget-menu-item">
-                                                                                        <a href="recession-is-a-good-opportunity-to-deal-a-deathblow-to-the-competitors/"
-                                                                                            data-action="blog.post"
-                                                                                            class="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link">Single
-                                                                                            Blog Post</a>
-                                                                                    </li>
-                                                                                </ul>
-
-                                                                            </li>
-                                                                            <li class="moto-widget-menu-item">
-                                                                                <a ="contacts.html" data-action="page"
-                                                                                    class="moto-widget-menu-link moto-widget-menu-link-level-1
-                                                                                    moto-widget-menu-link-active moto-link">CONTACTS</a>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="moto-widget moto-widget-row__column moto-cell col-sm-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                                    style="" data-widget="row.column"
-                                                                    data-container="container" data-spacing="aaaa"
-                                                                    data-bg-position="left top">
-
-
-                                                                    <div data-widget-id="wid_1555237980_e89ar4vjr"
-                                                                        class="moto-widget moto-widget-button moto-preset-default moto-preset-provider-default moto-align-center moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  "
-                                                                        data-widget="button">
-                                                                        <a href="support-us.html" data-action="page"
-                                                                            class="moto-widget-button-link moto-size-small moto-link"><span
-                                                                                class="fa moto-widget-theme-icon"></span>
-                                                                            <span
-                                                                                class="moto-widget-button-label">Donate</span></a>
-                                                                    </div>
-                                                                </div>
-
-
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-
-                                        </div>
+  <body class="moto-background moto-website_live">
+    <div class="page">
+      <header
+        id="section-header"
+        class="header moto-section"
+        data-widget="section"
+        data-container="section"
+      >
+        <div
+          class="moto-widget moto-widget-block moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+          data-widget="block"
+          data-spacing="saaa"
+          style=""
+          data-bg-position="left top"
+        >
+          <div class="container-fluid">
+            <div class="row">
+              <div class="moto-cell col-sm-12" data-container="container">
+                <div
+                  class="moto-widget moto-widget-container moto-container_header_5ab17a9c1"
+                  data-widget="container"
+                  data-container="container"
+                  data-css-name="moto-container_header_5ab17a9c1"
+                  data-bg-position="left top"
+                  data-moto-sticky="{ }"
+                >
+                  <div
+                    class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                    data-grid-type="sm"
+                    data-widget="row"
+                    data-spacing="aaaa"
+                    style=""
+                    data-bg-position="left top"
+                  >
+                    <div class="container-fluid">
+                      <div class="row" data-container="container">
+                        <div
+                          class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                          style=""
+                          data-widget="row.column"
+                          data-container="container"
+                          data-spacing="aaaa"
+                          data-bg-position="left top"
+                        >
+                          <div
+                            class="moto-widget moto-widget-container moto-container_header_5ab17aaf2"
+                            data-widget="container"
+                            data-container="container"
+                            data-css-name="moto-container_header_5ab17aaf2"
+                            data-bg-position="left top"
+                          >
+                            <div
+                              class="moto-widget moto-widget-row moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                              data-grid-type="sm"
+                              data-widget="row"
+                              data-spacing="aaaa"
+                              style="
+                                background-image: url(mt-demo/79800/79832/mt-content/uploads/2018/05/mt-1802-line-menu.jpg);
+                                background-position: left top;
+                                background-repeat: repeat-x;
+                                background-size: auto;
+                              "
+                              data-bg-position="left top"
+                              data-bg-image="2018/05/mt-1802-line-menu.jpg"
+                            >
+                              <div class="container-fluid">
+                                <div class="row" data-container="container">
+                                  <div
+                                    class="moto-widget moto-widget-row__column moto-cell col-sm-10 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                    style=""
+                                    data-widget="row.column"
+                                    data-container="container"
+                                    data-spacing="aaaa"
+                                    data-bg-position="left top"
+                                  >
+                                    <div
+                                      data-widget-id="wid_1521580712_34yfou2bm"
+                                      class="moto-widget moto-widget-menu moto-preset-default moto-align-center moto-align-center_mobile-h moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                      data-preset="default"
+                                      data-widget="menu"
+                                    >
+                                      <a
+                                        href="#"
+                                        class="moto-widget-menu-toggle-btn"
+                                        ><i
+                                          class="moto-widget-menu-toggle-btn-icon fa fa-bars"
+                                        ></i
+                                      ></a>
+                                      <ul
+                                        class="moto-widget-menu-list moto-widget-menu-list_horizontal"
+                                      >
+                                        <li class="moto-widget-menu-item">
+                                          <a
+                                            href="/"
+                                            data-action="page"
+                                            class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link"
+                                            >HOME</a
+                                          >
+                                        </li>
+                                        <li class="moto-widget-menu-item">
+                                          <a
+                                            href="donate-blood.html"
+                                            data-action="page"
+                                            class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link"
+                                            >DONATE BLOOD</a
+                                          >
+                                        </li>
+                                        <li class="moto-widget-menu-item">
+                                          <a
+                                            href="donor-center-locations.html"
+                                            data-action="page"
+                                            class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link"
+                                            >DONOR CENTER LOCATIONS</a
+                                          >
+                                        </li>
+                                        <li class="moto-widget-menu-item">
+                                          <a
+                                            href="appointment.html"
+                                            data-action="page"
+                                            class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link"
+                                            >APPOINTMENT</a
+                                          >
+                                        </li>
+                                        <li class="moto-widget-menu-item">
+                                          <a
+                                            href="services.html"
+                                            data-action="page"
+                                            class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link"
+                                            >SERVICES</a
+                                          >
+                                        </li>
+                                        <li
+                                          class="moto-widget-menu-item moto-widget-menu-item-has-submenu"
+                                        >
+                                          <a
+                                            href="support-us.html"
+                                            data-action="page"
+                                            class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu moto-link"
+                                            >SUPPORT US<span
+                                              class="fa moto-widget-menu-link-arrow"
+                                            ></span
+                                          ></a>
+                                          <ul class="moto-widget-menu-sublist">
+                                            <li class="moto-widget-menu-item">
+                                              <a
+                                                href="urgent-cases.html"
+                                                data-action="page"
+                                                class="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+                                                >Urgent Cases</a
+                                              >
+                                            </li>
+                                          </ul>
+                                        </li>
+                                        <li
+                                          class="moto-widget-menu-item moto-widget-menu-item-has-submenu"
+                                        >
+                                          <a
+                                            href="about-us.html"
+                                            data-action="page"
+                                            class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu moto-link"
+                                            >ABOUT US<span
+                                              class="fa moto-widget-menu-link-arrow"
+                                            ></span
+                                          ></a>
+                                          <ul class="moto-widget-menu-sublist">
+                                            <li class="moto-widget-menu-item">
+                                              <a
+                                                href="news.html"
+                                                data-action="blog.index"
+                                                class="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+                                                >Blog</a
+                                              >
+                                            </li>
+                                            <li class="moto-widget-menu-item">
+                                              <a
+                                                href="recession-is-a-good-opportunity-to-deal-a-deathblow-to-the-competitors/"
+                                                data-action="blog.post"
+                                                class="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link"
+                                                >Single Blog Post</a
+                                              >
+                                            </li>
+                                          </ul>
+                                        </li>
+                                        <li class="moto-widget-menu-item">
+                                          <a
+                                            ="contacts.html"
+                                            data-action="page"
+                                            class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-active moto-link"
+                                            >CONTACTS</a
+                                          >
+                                        </li>
+                                      </ul>
                                     </div>
+                                  </div>
+                                  <div
+                                    class="moto-widget moto-widget-row__column moto-cell col-sm-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                    style=""
+                                    data-widget="row.column"
+                                    data-container="container"
+                                    data-spacing="aaaa"
+                                    data-bg-position="left top"
+                                  >
+                                    <div
+                                      data-widget-id="wid_1555237980_e89ar4vjr"
+                                      class="moto-widget moto-widget-button moto-preset-default moto-preset-provider-default moto-align-center moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
+                                      data-widget="button"
+                                    >
+                                      <a
+                                        href="support-us.html"
+                                        data-action="page"
+                                        class="moto-widget-button-link moto-size-small moto-link"
+                                        ><span
+                                          class="fa moto-widget-theme-icon"
+                                        ></span>
+                                        <span class="moto-widget-button-label"
+                                          >Donate</span
+                                        ></a
+                                      >
+                                    </div>
+                                  </div>
                                 </div>
+                              </div>
                             </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </header>
+          </div>
+        </div>
+      </header>
 
-        <section id="section-content" class="content page-17 moto-section" data-widget="section"
-            data-container="section">
-            <div class="moto-widget moto-widget-block moto-bg-color_custom4 moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto"
-                data-widget="block" data-spacing="lala"
-                style="background-image:url(mt-demo/79800/79832/mt-content/uploads/2019/04/mt-1802-content-bg05.jpg);background-position:top;background-repeat:no-repeat;background-size:cover;"
-                data-bg-image="2019/04/mt-1802-content-bg05.jpg" data-bg-position="top">
-
-
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="moto-cell col-sm-12" data-container="container">
-
-
-                            <div class="moto-widget moto-widget-row row-fixed moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                data-grid-type="sm" data-widget="row" data-spacing="aaaa" style=""
-                                data-bg-position="left top">
-
-
-                                <div class="container-fluid">
+      <section
+        id="section-content"
+        class="content page-17 moto-section"
+        data-widget="section"
+        data-container="section"
+      >
+        <div
+          class="moto-widget moto-widget-block moto-bg-color_custom4 moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto"
+          data-widget="block"
+          data-spacing="lala"
+          style="
+            background-image: url(mt-demo/79800/79832/mt-content/uploads/2019/04/mt-1802-content-bg05.jpg);
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+          "
+          data-bg-image="2019/04/mt-1802-content-bg05.jpg"
+          data-bg-position="top"
+        >
+          <div class="container-fluid">
+            <div class="row">
+              <div class="moto-cell col-sm-12" data-container="container">
+                <div
+                  class="moto-widget moto-widget-row row-fixed moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                  data-grid-type="sm"
+                  data-widget="row"
+                  data-spacing="aaaa"
+                  style=""
+                  data-bg-position="left top"
+                >
+                  <div class="container-fluid">
+                    <div class="row" data-container="container">
+                      <div
+                        class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                        style=""
+                        data-widget="row.column"
+                        data-container="container"
+                        data-spacing="aaaa"
+                        data-bg-position="left top"
+                      >
+                        <div
+                          class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                          data-widget="text"
+                          data-preset="default"
+                          data-spacing="aaaa"
+                          data-animation=""
+                        >
+                          <div
+                            class="moto-widget-text-content moto-widget-text-editable"
+                          >
+                            <h1 class="moto-text_system_5">Contact us</h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="moto-widget moto-widget-block moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+          data-widget="block"
+          data-spacing="aaaa"
+          style=""
+          data-bg-position="left top"
+        >
+          <div class="container-fluid">
+            <div class="row">
+              <div class="moto-cell col-sm-12" data-container="container">
+                <div
+                  class="moto-widget moto-widget-row row-gutter-0 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                  data-grid-type="sm"
+                  data-widget="row"
+                  data-spacing="aaaa"
+                  style=""
+                  data-bg-position="left top"
+                >
+                  <div class="container-fluid">
+                    <div class="row" data-container="container">
+                      <div
+                        class="moto-widget moto-widget-row__column moto-cell col-sm-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                        style=""
+                        data-widget="row.column"
+                        data-container="container"
+                        data-spacing="aaaa"
+                        data-bg-position="left top"
+                      >
+                        <div
+                          id="wid_1555319661_9it15w5l1"
+                          class="moto-widget moto-widget-google-map-pro moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                          data-widget="google_map_pro"
+                        >
+                          <div
+                            class="moto-widget-google-map-pro-wrapper"
+                            data-map-properties='{"center":{"lat":40.7127753,"lng":-74.0059728},"zoom":10,"theme":"standard","mapTypeControl":true,"zoomControl":true,"streetViewControl":true,"rotateControl":false,"scaleControl":false,"fullscreenControl":true,"styles":[],"mapTypeId":"roadmap"}'
+                            data-map-markers='[{"icon":"","title":"","caption":"","position":{"lat":40.7127753,"lng":-74.0059728},"uid":"gmm_1555319697_021464","clickable":true,"visible":true}]'
+                            style="height: 760px"
+                          ></div>
+                        </div>
+                      </div>
+                      <div
+                        class="moto-widget moto-widget-row__column moto-cell col-sm-8 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                        style=""
+                        data-widget="row.column"
+                        data-container="container"
+                        data-spacing="aaaa"
+                        data-bg-position="left top"
+                      >
+                        <div
+                          class="moto-widget moto-widget-row moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                          data-grid-type="sm"
+                          data-widget="row"
+                          data-spacing="laaa"
+                          style=""
+                          data-bg-position="left top"
+                        >
+                          <div class="container-fluid">
+                            <div class="row" data-container="container">
+                              <div
+                                class="moto-widget moto-widget-row__column moto-cell col-sm-1 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                style=""
+                                data-widget="row.column"
+                                data-container="container"
+                                data-spacing="aaaa"
+                                data-bg-position="left top"
+                              ></div>
+                              <div
+                                class="moto-widget moto-widget-row__column moto-cell col-sm-9 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                style=""
+                                data-widget="row.column"
+                                data-container="container"
+                                data-spacing="aaaa"
+                                data-bg-position="left top"
+                              >
+                                <div
+                                  class="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                  data-grid-type="sm"
+                                  data-widget="row"
+                                  data-spacing="aaaa"
+                                  style=""
+                                  data-bg-position="left top"
+                                >
+                                  <div class="container-fluid">
                                     <div class="row" data-container="container">
+                                      <div
+                                        class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto"
+                                        style=""
+                                        data-widget="row.column"
+                                        data-container="container"
+                                        data-spacing="aala"
+                                        data-bg-position="left top"
+                                      >
+                                        <div
+                                          class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small"
+                                          data-widget="text"
+                                          data-preset="default"
+                                          data-spacing="asas"
+                                          data-animation=""
+                                        >
+                                          <div
+                                            class="moto-widget-text-content moto-widget-text-editable"
+                                          >
+                                            <p class="moto-text_261">
+                                              ADDRESS:
+                                            </p>
+                                            <p class="moto-text_261">&nbsp;</p>
+                                            <p class="moto-text_186">
+                                              Lorance 542B, Tailstoi Town 5248
+                                              MT, United States&nbsp;
+                                            </p>
+                                          </div>
+                                        </div>
 
+                                        <div
+                                          data-widget-id="wid_1555319808_ekn2e2zsn"
+                                          class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-small"
+                                          data-widget="divider_horizontal"
+                                          data-preset="2"
+                                        >
+                                          <hr
+                                            class="moto-widget-divider-line"
+                                            style="max-width: 100%; width: 60px"
+                                          />
+                                        </div>
+                                        <div
+                                          class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small"
+                                          data-widget="text"
+                                          data-preset="default"
+                                          data-spacing="asas"
+                                          data-animation=""
+                                          data-draggable-disabled=""
+                                        >
+                                          <div
+                                            class="moto-widget-text-content moto-widget-text-editable"
+                                          >
+                                            <p class="moto-text_261">PHONE:</p>
+                                            <p class="moto-text_261"><br /></p>
+                                            <p class="moto-text_186">
+                                              <a
+                                                href="tel:1234567890"
+                                                data-action="call"
+                                                class="moto-link"
+                                                >+90 (123) 456 78 99</a
+                                              ><br />
+                                            </p>
+                                            <p class="moto-text_186">
+                                              <a
+                                                href="tel:1234567890"
+                                                data-action="call"
+                                                class="moto-link"
+                                                >+90 (123) 456 78 03</a
+                                              >
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div
+                                          data-widget-id="wid_1555319897_1b1jefzw8"
+                                          class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-small"
+                                          data-widget="divider_horizontal"
+                                          data-preset="2"
+                                        >
+                                          <hr
+                                            class="moto-widget-divider-line"
+                                            style="max-width: 100%; width: 60px"
+                                          />
+                                        </div>
+                                        <div
+                                          class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small"
+                                          data-widget="text"
+                                          data-preset="default"
+                                          data-spacing="asas"
+                                          data-animation=""
+                                        >
+                                          <div
+                                            class="moto-widget-text-content moto-widget-text-editable"
+                                          >
+                                            <p class="moto-text_261">EMAIL:</p>
+                                            <p class="moto-text_261">&nbsp;</p>
+                                            <p class="moto-text_186">
+                                              <a
+                                                href="mailto:mail@demolink.com"
+                                                data-action="mail"
+                                                class="moto-link"
+                                                >mail@demolink.com</a
+                                              >
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div
+                                          data-widget-id="wid_1555319940_mmlc8vv09"
+                                          class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-small"
+                                          data-widget="divider_horizontal"
+                                          data-preset="2"
+                                        >
+                                          <hr
+                                            class="moto-widget-divider-line"
+                                            style="max-width: 100%; width: 60px"
+                                          />
+                                        </div>
+                                        <div
+                                          class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small"
+                                          data-widget="text"
+                                          data-preset="default"
+                                          data-spacing="asas"
+                                          data-animation=""
+                                        >
+                                          <div
+                                            class="moto-widget-text-content moto-widget-text-editable"
+                                          >
+                                            <p class="moto-text_261">
+                                              WORKING HOURS:
+                                            </p>
+                                            <p class="moto-text_261">&nbsp;</p>
+                                            <p class="moto-text_186">
+                                              Monday - Friday: 9:00 am - 6:00 pm
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div
+                                          data-widget-id="wid_1555319979_d1lv6td5t"
+                                          class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-small"
+                                          data-widget="divider_horizontal"
+                                          data-preset="2"
+                                        >
+                                          <hr
+                                            class="moto-widget-divider-line"
+                                            style="max-width: 100%; width: 60px"
+                                          />
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto"
+                                        style=""
+                                        data-widget="row.column"
+                                        data-container="container"
+                                        data-spacing="aala"
+                                        data-bg-position="left top"
+                                      >
+                                        <div
+                                          class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-small"
+                                          data-widget="text"
+                                          data-preset="default"
+                                          data-spacing="aass"
+                                          data-animation=""
+                                        >
+                                          <div
+                                            class="moto-widget-text-content moto-widget-text-editable"
+                                          >
+                                            <h3 class="moto-text_267">
+                                              <span class="moto-color_custom1"
+                                                >Write a Massage&nbsp;</span
+                                              >
+                                            </h3>
+                                          </div>
+                                        </div>
+                                        <div
+                                          id="wid_1555319995_sgk7l55px"
+                                          class="moto-widget moto-widget-contact_form moto-preset-default moto-spacing-top-auto moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small"
+                                          data-preset="default"
+                                          data-widget="contact_form"
+                                          data-spacing="asas"
+                                        >
+                                          <div
+                                            ng-controller="widget.ContactForm.Controller"
+                                            ng-init='hash = &apos;2@eyJoIjoiSFljQXNsYlhUS09rM0l2ZzBqb0pKZ1YzR2Q0ZXc1RTNxdXQ5YktjRlExRT0iLCJpIjoiVnhBeDFpOGpTUW85dGlKS0hOVDd1Zz09IiwidiI6IjlEU2lOaUxwVWpGR2M4TzNaMlBHZnNVUEVqbWVuSkxmbEoxWEE0MXhReGVGZW9qNGtiQ0V5amI3RG5COEFLd2VvNjYzdFBIV2k4R1JPZW5iaCs4dTRoMVZEVnlXa1YwMkJxTVB4b2hjSFg4PSJ9&apos;;actionAfterSubmission={"action":"none","url":"","target":"_self","id":""};resetAfterSubmission=false'
+                                          >
+                                            <form
+                                              id="wid_1555319995_sgk7l55px__form"
+                                              class="moto-widget-contact_form-form"
+                                              role="form"
+                                              name="contactForm"
+                                              ng-submit="submit()"
+                                              novalidate
+                                            >
+                                              <div
+                                                ng-show="sending"
+                                                class="contact-form-loading"
+                                              ></div>
 
-                                        <div class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                            style="" data-widget="row.column" data-container="container"
-                                            data-spacing="aaaa" data-bg-position="left top">
+                                              <div
+                                                class="moto-widget-contact_form-group"
+                                              >
+                                                <label
+                                                  for="field_name_wid_1555319995_sgk7l55px"
+                                                  class="moto-widget-contact_form-label"
+                                                  >Your name</label
+                                                >
+                                                <input
+                                                  type="text"
+                                                  class="moto-widget-contact_form-field moto-widget-contact_form-input"
+                                                  placeholder="Your name *"
+                                                  ng-blur="validate('name')"
+                                                  required
+                                                  ng-model-options="{ updateOn: 'blur' }"
+                                                  name="name"
+                                                  id="field_name_wid_1555319995_sgk7l55px"
+                                                  ng-model="message.name"
+                                                />
+                                                <span
+                                                  class="moto-widget-contact_form-field-error ng-cloak"
+                                                  ng-cloak
+                                                  ng-show="contactForm.name.$invalid && !contactForm.name.$pristine && !contactForm.name.emailInvalid"
+                                                  >Field is required</span
+                                                >
+                                              </div>
 
+                                              <div
+                                                class="moto-widget-contact_form-group"
+                                              >
+                                                <label
+                                                  for="field_email_wid_1555319995_sgk7l55px"
+                                                  class="moto-widget-contact_form-label"
+                                                  >Email</label
+                                                >
+                                                <input
+                                                  type="text"
+                                                  class="moto-widget-contact_form-field moto-widget-contact_form-input"
+                                                  placeholder="Email *"
+                                                  ng-blur="validate('email')"
+                                                  required
+                                                  ng-model-options="{ updateOn: 'blur' }"
+                                                  name="email"
+                                                  id="field_email_wid_1555319995_sgk7l55px"
+                                                  ng-model="message.email"
+                                                />
+                                                <span
+                                                  class="moto-widget-contact_form-field-error ng-cloak"
+                                                  ng-cloak
+                                                  ng-show="contactForm.email.$invalid && !contactForm.email.$pristine && !contactForm.email.emailInvalid"
+                                                  >Field is required</span
+                                                >
+                                                <span
+                                                  class="moto-widget-contact_form-field-error ng-cloak"
+                                                  ng-cloak
+                                                  ng-show="contactForm.email.emailInvalid && !contactForm.email.$pristine"
+                                                  >Incorrect email</span
+                                                >
+                                              </div>
 
+                                              <div
+                                                class="moto-widget-contact_form-group"
+                                              >
+                                                <label
+                                                  for="field_phone_wid_1555319995_sgk7l55px"
+                                                  class="moto-widget-contact_form-label"
+                                                  >Phone</label
+                                                >
+                                                <input
+                                                  type="text"
+                                                  class="moto-widget-contact_form-field moto-widget-contact_form-input"
+                                                  placeholder="Phone *"
+                                                  ng-blur="validate('phone')"
+                                                  required
+                                                  ng-model-options="{ updateOn: 'blur' }"
+                                                  name="phone"
+                                                  id="field_phone_wid_1555319995_sgk7l55px"
+                                                  ng-model="message.phone"
+                                                />
+                                                <span
+                                                  class="moto-widget-contact_form-field-error ng-cloak"
+                                                  ng-cloak
+                                                  ng-show="contactForm.phone.$invalid && !contactForm.phone.$pristine && !contactForm.phone.emailInvalid"
+                                                  >Field is required</span
+                                                >
+                                              </div>
 
-                                            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                data-widget="text" data-preset="default" data-spacing="aaaa"
-                                                data-animation="">
-                                                <div class="moto-widget-text-content moto-widget-text-editable">
-                                                    <h1 class="moto-text_system_5">Contact us</h1>
+                                              <div
+                                                class="moto-widget-contact_form-group"
+                                              >
+                                                <label
+                                                  for="field_message_wid_1555319995_sgk7l55px"
+                                                  class="moto-widget-contact_form-label"
+                                                  >Message</label
+                                                >
+                                                <textarea
+                                                  class="moto-widget-contact_form-field moto-widget-contact_form-textarea"
+                                                  rows="3"
+                                                  placeholder="Message *"
+                                                  ng-blur="validate('message')"
+                                                  required
+                                                  ng-model-options="{ updateOn: 'blur' }"
+                                                  name="message"
+                                                  id="field_message_wid_1555319995_sgk7l55px"
+                                                  ng-model="message.message"
+                                                ></textarea>
+                                                <span
+                                                  class="moto-widget-contact_form-field-error ng-cloak"
+                                                  ng-cloak
+                                                  ng-show="contactForm.message.$invalid && !contactForm.message.$pristine"
+                                                  >Field is required</span
+                                                >
+                                              </div>
+
+                                              <div
+                                                class="moto-widget-contact_form-success ng-cloak"
+                                                ng-cloak
+                                                ng-show="showSuccessMessage"
+                                              >
+                                                Your message was sent
+                                                successfully
+                                              </div>
+                                              <div
+                                                class="moto-widget-contact_form-danger ng-cloak"
+                                                ng-cloak
+                                                ng-show="emailError"
+                                              >
+                                                Sorry, your message was not sent
+                                              </div>
+                                              <div
+                                                class="moto-widget-contact_form-buttons"
+                                              >
+                                                <div
+                                                  class="moto-widget moto-widget-button moto-preset-default moto-preset-provider-default moto-align-left"
+                                                  data-preset="default"
+                                                  data-align="left"
+                                                >
+                                                  <button
+                                                    type="submit"
+                                                    class="moto-widget-button-link moto-size-medium"
+                                                    data-size="medium"
+                                                  >
+                                                    <span
+                                                      class="fa moto-widget-theme-icon"
+                                                    ></span
+                                                    ><span
+                                                      class="moto-widget-button-label"
+                                                      >Join Today</span
+                                                    >
+                                                  </button>
                                                 </div>
-                                            </div>
-
-
+                                              </div>
+                                            </form>
+                                          </div>
                                         </div>
-
-
-
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
+                              </div>
+                              <div
+                                class="moto-widget moto-widget-row__column moto-cell col-sm-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                style=""
+                                data-widget="row.column"
+                                data-container="container"
+                                data-spacing="aaaa"
+                                data-bg-position="left top"
+                              ></div>
                             </div>
-
-
+                          </div>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="moto-widget moto-widget-block moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                data-widget="block" data-spacing="aaaa" style="" data-bg-position="left top">
-
-
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="moto-cell col-sm-12" data-container="container">
-
-                            <div class="moto-widget moto-widget-row row-gutter-0 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                data-grid-type="sm" data-widget="row" data-spacing="aaaa" style=""
-                                data-bg-position="left top">
-
-
-                                <div class="container-fluid">
-                                    <div class="row" data-container="container">
-
-
-                                        <div class="moto-widget moto-widget-row__column moto-cell col-sm-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                            style="" data-widget="row.column" data-container="container"
-                                            data-spacing="aaaa" data-bg-position="left top">
-
-
-                                            <div id="wid_1555319661_9it15w5l1"
-                                                class="moto-widget moto-widget-google-map-pro moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto "
-                                                data-widget="google_map_pro">
-                                                <div class="moto-widget-google-map-pro-wrapper"
-                                                    data-map-properties="{&quot;center&quot;:{&quot;lat&quot;:40.7127753,&quot;lng&quot;:-74.0059728},&quot;zoom&quot;:10,&quot;theme&quot;:&quot;standard&quot;,&quot;mapTypeControl&quot;:true,&quot;zoomControl&quot;:true,&quot;streetViewControl&quot;:true,&quot;rotateControl&quot;:false,&quot;scaleControl&quot;:false,&quot;fullscreenControl&quot;:true,&quot;styles&quot;:[],&quot;mapTypeId&quot;:&quot;roadmap&quot;}"
-                                                    data-map-markers="[{&quot;icon&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;position&quot;:{&quot;lat&quot;:40.7127753,&quot;lng&quot;:-74.0059728},&quot;uid&quot;:&quot;gmm_1555319697_021464&quot;,&quot;clickable&quot;:true,&quot;visible&quot;:true}]"
-                                                    style="height: 760px"></div>
-                                            </div>
-
-
-                                        </div>
-                                        <div class="moto-widget moto-widget-row__column moto-cell col-sm-8 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                            style="" data-widget="row.column" data-container="container"
-                                            data-spacing="aaaa" data-bg-position="left top">
-
-
-                                            <div class="moto-widget moto-widget-row moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                data-grid-type="sm" data-widget="row" data-spacing="laaa" style=""
-                                                data-bg-position="left top">
-
-
-                                                <div class="container-fluid">
-                                                    <div class="row" data-container="container">
-
-
-                                                        <div class="moto-widget moto-widget-row__column moto-cell col-sm-1 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                            style="" data-widget="row.column" data-container="container"
-                                                            data-spacing="aaaa" data-bg-position="left top">
-
-
-                                                        </div>
-                                                        <div class="moto-widget moto-widget-row__column moto-cell col-sm-9 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                            style="" data-widget="row.column" data-container="container"
-                                                            data-spacing="aaaa" data-bg-position="left top">
-
-
-                                                            <div class="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                                data-grid-type="sm" data-widget="row"
-                                                                data-spacing="aaaa" style=""
-                                                                data-bg-position="left top">
-
-
-                                                                <div class="container-fluid">
-                                                                    <div class="row" data-container="container">
-
-
-                                                                        <div class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto"
-                                                                            style="" data-widget="row.column"
-                                                                            data-container="container"
-                                                                            data-spacing="aala"
-                                                                            data-bg-position="left top">
-                                                                            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small"
-                                                                                data-widget="text" data-preset="default"
-                                                                                data-spacing="asas" data-animation="">
-                                                                                <div
-                                                                                    class="moto-widget-text-content moto-widget-text-editable">
-                                                                                    <p class="moto-text_261">ADDRESS:
-                                                                                    </p>
-                                                                                    <p class="moto-text_261">&nbsp;</p>
-                                                                                    <p class="moto-text_186">Lorance
-                                                                                        542B, Tailstoi Town 5248 MT,
-                                                                                        United States&nbsp;</p>
-                                                                                </div>
-                                                                            </div>
-
-
-                                                                            <div data-widget-id="wid_1555319808_ekn2e2zsn"
-                                                                                class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-small  "
-                                                                                data-widget="divider_horizontal"
-                                                                                data-preset="2">
-                                                                                <hr class="moto-widget-divider-line"
-                                                                                    style="max-width:100%;width:60px;">
-                                                                            </div>
-                                                                            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small"
-                                                                                data-widget="text" data-preset="default"
-                                                                                data-spacing="asas" data-animation=""
-                                                                                data-draggable-disabled="">
-                                                                                <div
-                                                                                    class="moto-widget-text-content moto-widget-text-editable">
-                                                                                    <p class="moto-text_261">PHONE:</p>
-                                                                                    <p class="moto-text_261"><br></p>
-                                                                                    <p class="moto-text_186"><a
-                                                                                            href="tel:1234567890"
-                                                                                            data-action="call"
-                                                                                            class="moto-link">+90 (123)
-                                                                                            456 78 99</a><br></p>
-                                                                                    <p class="moto-text_186"><a
-                                                                                            href="tel:1234567890"
-                                                                                            data-action="call"
-                                                                                            class="moto-link">+90 (123)
-                                                                                            456 78 03</a></p>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div data-widget-id="wid_1555319897_1b1jefzw8"
-                                                                                class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-small  "
-                                                                                data-widget="divider_horizontal"
-                                                                                data-preset="2">
-                                                                                <hr class="moto-widget-divider-line"
-                                                                                    style="max-width:100%;width:60px;">
-                                                                            </div>
-                                                                            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small"
-                                                                                data-widget="text" data-preset="default"
-                                                                                data-spacing="asas" data-animation="">
-                                                                                <div
-                                                                                    class="moto-widget-text-content moto-widget-text-editable">
-                                                                                    <p class="moto-text_261">EMAIL:</p>
-                                                                                    <p class="moto-text_261">&nbsp;</p>
-                                                                                    <p class="moto-text_186"><a
-                                                                                            href="mailto:mail@demolink.com"
-                                                                                            data-action="mail"
-                                                                                            class="moto-link">mail@demolink.com</a>
-                                                                                    </p>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div data-widget-id="wid_1555319940_mmlc8vv09"
-                                                                                class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-small  "
-                                                                                data-widget="divider_horizontal"
-                                                                                data-preset="2">
-                                                                                <hr class="moto-widget-divider-line"
-                                                                                    style="max-width:100%;width:60px;">
-                                                                            </div>
-                                                                            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small"
-                                                                                data-widget="text" data-preset="default"
-                                                                                data-spacing="asas" data-animation="">
-                                                                                <div
-                                                                                    class="moto-widget-text-content moto-widget-text-editable">
-                                                                                    <p class="moto-text_261">WORKING
-                                                                                        HOURS:</p>
-                                                                                    <p class="moto-text_261">&nbsp;</p>
-                                                                                    <p class="moto-text_186">Monday -
-                                                                                        Friday: 9:00 am - 6:00 pm</p>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div data-widget-id="wid_1555319979_d1lv6td5t"
-                                                                                class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-small  "
-                                                                                data-widget="divider_horizontal"
-                                                                                data-preset="2">
-                                                                                <hr class="moto-widget-divider-line"
-                                                                                    style="max-width:100%;width:60px;">
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto"
-                                                                            style="" data-widget="row.column"
-                                                                            data-container="container"
-                                                                            data-spacing="aala"
-                                                                            data-bg-position="left top">
-
-
-                                                                            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-small"
-                                                                                data-widget="text" data-preset="default"
-                                                                                data-spacing="aass" data-animation="">
-                                                                                <div
-                                                                                    class="moto-widget-text-content moto-widget-text-editable">
-                                                                                    <h3 class="moto-text_267"><span
-                                                                                            class="moto-color_custom1">Write
-                                                                                            a Massage&nbsp;</span></h3>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div id="wid_1555319995_sgk7l55px"
-                                                                                class="moto-widget moto-widget-contact_form moto-preset-default moto-spacing-top-auto moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small  "
-                                                                                data-preset="default"
-                                                                                data-widget="contact_form"
-                                                                                data-spacing="asas">
-                                                                                <div ng-controller="widget.ContactForm.Controller"
-                                                                                    ng-init="hash = '2@eyJoIjoiSFljQXNsYlhUS09rM0l2ZzBqb0pKZ1YzR2Q0ZXc1RTNxdXQ5YktjRlExRT0iLCJpIjoiVnhBeDFpOGpTUW85dGlKS0hOVDd1Zz09IiwidiI6IjlEU2lOaUxwVWpGR2M4TzNaMlBHZnNVUEVqbWVuSkxmbEoxWEE0MXhReGVGZW9qNGtiQ0V5amI3RG5COEFLd2VvNjYzdFBIV2k4R1JPZW5iaCs4dTRoMVZEVnlXa1YwMkJxTVB4b2hjSFg4PSJ9';actionAfterSubmission={&quot;action&quot;:&quot;none&quot;,&quot;url&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:&quot;&quot;};resetAfterSubmission=false">
-                                                                                    <form
-                                                                                        id="wid_1555319995_sgk7l55px__form"
-                                                                                        class="moto-widget-contact_form-form"
-                                                                                        role="form" name="contactForm"
-                                                                                        ng-submit="submit()" novalidate>
-                                                                                        <div ng-show="sending"
-                                                                                            class="contact-form-loading">
-                                                                                        </div>
-
-                                                                                        <div
-                                                                                            class="moto-widget-contact_form-group">
-                                                                                            <label
-                                                                                                for="field_name_wid_1555319995_sgk7l55px"
-                                                                                                class="moto-widget-contact_form-label">Your
-                                                                                                name</label>
-                                                                                            <input type="text"
-                                                                                                class="moto-widget-contact_form-field moto-widget-contact_form-input"
-                                                                                                placeholder="Your name *"
-                                                                                                ng-blur="validate('name')"
-                                                                                                required
-                                                                                                ng-model-options="{ updateOn: 'blur' }"
-                                                                                                name="name"
-                                                                                                id="field_name_wid_1555319995_sgk7l55px"
-                                                                                                ng-model="message.name" />
-                                                                                            <span
-                                                                                                class="moto-widget-contact_form-field-error ng-cloak"
-                                                                                                ng-cloak
-                                                                                                ng-show="contactForm.name.$invalid && !contactForm.name.$pristine && !contactForm.name.emailInvalid">Field
-                                                                                                is required</span>
-                                                                                        </div>
-
-                                                                                        <div
-                                                                                            class="moto-widget-contact_form-group">
-                                                                                            <label
-                                                                                                for="field_email_wid_1555319995_sgk7l55px"
-                                                                                                class="moto-widget-contact_form-label">Email</label>
-                                                                                            <input type="text"
-                                                                                                class="moto-widget-contact_form-field moto-widget-contact_form-input"
-                                                                                                placeholder="Email *"
-                                                                                                ng-blur="validate('email')"
-                                                                                                required
-                                                                                                ng-model-options="{ updateOn: 'blur' }"
-                                                                                                name="email"
-                                                                                                id="field_email_wid_1555319995_sgk7l55px"
-                                                                                                ng-model="message.email" />
-                                                                                            <span
-                                                                                                class="moto-widget-contact_form-field-error ng-cloak"
-                                                                                                ng-cloak
-                                                                                                ng-show="contactForm.email.$invalid && !contactForm.email.$pristine && !contactForm.email.emailInvalid">Field
-                                                                                                is required</span>
-                                                                                            <span
-                                                                                                class="moto-widget-contact_form-field-error ng-cloak"
-                                                                                                ng-cloak
-                                                                                                ng-show="contactForm.email.emailInvalid && !contactForm.email.$pristine">Incorrect
-                                                                                                email</span>
-                                                                                        </div>
-
-                                                                                        <div
-                                                                                            class="moto-widget-contact_form-group">
-                                                                                            <label
-                                                                                                for="field_phone_wid_1555319995_sgk7l55px"
-                                                                                                class="moto-widget-contact_form-label">Phone</label>
-                                                                                            <input type="text"
-                                                                                                class="moto-widget-contact_form-field moto-widget-contact_form-input"
-                                                                                                placeholder="Phone *"
-                                                                                                ng-blur="validate('phone')"
-                                                                                                required
-                                                                                                ng-model-options="{ updateOn: 'blur' }"
-                                                                                                name="phone"
-                                                                                                id="field_phone_wid_1555319995_sgk7l55px"
-                                                                                                ng-model="message.phone" />
-                                                                                            <span
-                                                                                                class="moto-widget-contact_form-field-error ng-cloak"
-                                                                                                ng-cloak
-                                                                                                ng-show="contactForm.phone.$invalid && !contactForm.phone.$pristine && !contactForm.phone.emailInvalid">Field
-                                                                                                is required</span>
-                                                                                        </div>
-
-
-
-
-                                                                                        <div
-                                                                                            class="moto-widget-contact_form-group">
-                                                                                            <label
-                                                                                                for="field_message_wid_1555319995_sgk7l55px"
-                                                                                                class="moto-widget-contact_form-label">Message</label>
-                                                                                            <textarea
-                                                                                                class="moto-widget-contact_form-field moto-widget-contact_form-textarea"
-                                                                                                rows="3"
-                                                                                                placeholder="Message *"
-                                                                                                ng-blur="validate('message')"
-                                                                                                required
-                                                                                                ng-model-options="{ updateOn: 'blur' }"
-                                                                                                name="message"
-                                                                                                id="field_message_wid_1555319995_sgk7l55px"
-                                                                                                ng-model="message.message"></textarea>
-                                                                                            <span
-                                                                                                class="moto-widget-contact_form-field-error ng-cloak"
-                                                                                                ng-cloak
-                                                                                                ng-show="contactForm.message.$invalid && !contactForm.message.$pristine">Field
-                                                                                                is required</span>
-                                                                                        </div>
-
-
-
-                                                                                        <div class="moto-widget-contact_form-success ng-cloak"
-                                                                                            ng-cloak
-                                                                                            ng-show="showSuccessMessage">
-                                                                                            Your message was sent
-                                                                                            successfully
-                                                                                        </div>
-                                                                                        <div class="moto-widget-contact_form-danger ng-cloak"
-                                                                                            ng-cloak
-                                                                                            ng-show="emailError">
-                                                                                            Sorry, your message was not
-                                                                                            sent
-                                                                                        </div>
-                                                                                        <div
-                                                                                            class="moto-widget-contact_form-buttons">
-
-                                                                                            <div class="moto-widget moto-widget-button moto-preset-default moto-preset-provider-default moto-align-left"
-                                                                                                data-preset="default"
-                                                                                                data-align="left">
-                                                                                                <button type="submit"
-                                                                                                    class="moto-widget-button-link moto-size-medium"
-                                                                                                    data-size="medium"><span
-                                                                                                        class="fa moto-widget-theme-icon"></span><span
-                                                                                                        class="moto-widget-button-label">Join
-                                                                                                        Today</span></button>
-                                                                                            </div>
-
-                                                                                        </div>
-                                                                                    </form>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-
-
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="moto-widget moto-widget-row__column moto-cell col-sm-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                                            style="" data-widget="row.column" data-container="container"
-                                                            data-spacing="aaaa" data-bg-position="left top">
-
-
-                                                        </div>
-
-
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </div>
 
-    <footer id="section-footer" class="footer moto-section" data-widget="section" data-container="section">
-        <div class="moto-widget moto-widget-block moto-bg-color_custom1 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto"
-            data-widget="block" data-spacing="aama" style="" data-bg-position="left top">
-
-
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="moto-cell col-sm-12" data-container="container">
-
-                        <div data-widget-id="wid_1521639569_xmcn1jypx"
-                            class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto "
-                            data-widget="spacer" data-preset="default" data-spacing="mama" data-visible-on="mobile-v">
-                            <div class="moto-widget-spacer-block" style="height:10px"></div>
+    <footer
+      id="section-footer"
+      class="footer moto-section"
+      data-widget="section"
+      data-container="section"
+    >
+      <div
+        class="moto-widget moto-widget-block moto-bg-color_custom1 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto"
+        data-widget="block"
+        data-spacing="aama"
+        style=""
+        data-bg-position="left top"
+      >
+        <div class="container-fluid">
+          <div class="row">
+            <div class="moto-cell col-sm-12" data-container="container">
+              <div
+                data-widget-id="wid_1521639569_xmcn1jypx"
+                class="moto-widget moto-widget-spacer moto-preset-default moto-spacing-top-medium moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto"
+                data-widget="spacer"
+                data-preset="default"
+                data-spacing="mama"
+                data-visible-on="mobile-v"
+              >
+                <div
+                  class="moto-widget-spacer-block"
+                  style="height: 10px"
+                ></div>
+              </div>
+              <div
+                class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
+                data-grid-type="sm"
+                data-widget="row"
+                data-spacing="aasa"
+                style=""
+                data-bg-position="left top"
+              >
+                <div class="container-fluid">
+                  <div class="row" data-container="container">
+                    <div
+                      class="moto-widget moto-widget-row__column moto-cell col-sm-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                      style=""
+                      data-widget="row.column"
+                      data-container="container"
+                      data-spacing="aaaa"
+                      data-bg-position="left top"
+                    >
+                      <div
+                        class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto"
+                        data-widget="text"
+                        data-preset="default"
+                        data-spacing="aama"
+                        data-animation=""
+                      >
+                        <div
+                          class="moto-widget-text-content moto-widget-text-editable"
+                        >
+                          <p class="moto-text_system_1">
+                            <a
+                              target="_self"
+                              data-action="page"
+                              data-id="1"
+                              class="moto-link"
+                              href="/"
+                              ><span
+                                class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-small moto-spacing-bottom-zero moto-spacing-left-zero"
+                                data-widget="motoimagewidget"
+                                ><span class="moto-content-image-container"
+                                  ><img
+                                    class="moto-content-image"
+                                    data-path="2019/04/mt-1802-logo02.png"
+                                    data-id="359"
+                                    alt=""
+                                    width="52"
+                                    height="56"
+                                    src="Blood Any Time logo/c1.png" /></span></span></a
+                            ><a
+                              target="_self"
+                              data-action="page"
+                              data-id="1"
+                              class="moto-link"
+                              href="/"
+                              ><span class="moto-color5_5"
+                                >Blood Any Time</span
+                              ></a
+                            >
+                          </p>
                         </div>
-                        <div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
-                            data-grid-type="sm" data-widget="row" data-spacing="aasa" style=""
-                            data-bg-position="left top">
-
-
-                            <div class="container-fluid">
-                                <div class="row" data-container="container">
-
-
-                                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                        style="" data-widget="row.column" data-container="container" data-spacing="aaaa"
-                                        data-bg-position="left top">
-
-
-                                        <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto"
-                                            data-widget="text" data-preset="default" data-spacing="aama"
-                                            data-animation="">
-                                            <div class="moto-widget-text-content moto-widget-text-editable">
-                                                <p class="moto-text_system_1"><a target="_self" data-action="page"
-                                                        data-id="1" class="moto-link" href="/"><span
-                                                            class="moto-content-image-plugin-wrapper moto-spacing-top-zero moto-spacing-right-small moto-spacing-bottom-zero moto-spacing-left-zero"
-                                                            data-widget="motoimagewidget"><span
-                                                                class="moto-content-image-container"><img
-                                                                    class="moto-content-image"
-                                                                    data-path="2019/04/mt-1802-logo02.png" data-id="359"
-                                                                    alt="" width="52" height="56"
-                                                                    src="Blood Any Time logo/c1.png"></span></span></a><a
-                                                        target="_self" data-action="page" data-id="1" class="moto-link"
-                                                        href="/"><span class="moto-color5_5">Blood Any Time</span></a></p>
-                                            </div>
-                                        </div>
-                                        <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-medium moto-spacing-bottom-medium moto-spacing-left-auto"
-                                            data-widget="text" data-preset="default" data-spacing="amma"
-                                            data-animation="">
-                                            <div class="moto-widget-text-content moto-widget-text-editable">
-                                                <p class="moto-text_206"><span class="moto-color5_5">It is a long
-                                                        established fact that a reader will be distracted by the
-                                                        readable content of a page when looking at its layout. The point
-                                                        of using Lorem Ipsum is that it has a more-or-less normal
-                                                        distribution of letters, as opposed to using</span></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                        style="" data-widget="row.column" data-container="container" data-spacing="aaaa"
-                                        data-bg-position="left top">
-
-
-                                        <div data-widget-id="wid_1521639806_u4s3ok2kc"
-                                            class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  "
-                                            data-widget="divider_horizontal" data-preset="2">
-                                            <hr class="moto-widget-divider-line" style="max-width:100%;width:40px;">
-                                        </div>
-                                        <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
-                                            data-widget="text" data-preset="default" data-spacing="aasa"
-                                            data-animation="">
-                                            <div class="moto-widget-text-content moto-widget-text-editable">
-                                                <p class="moto-text_207">Information</p>
-                                            </div>
-                                        </div>
-                                        <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
-                                            data-widget="text" data-preset="default" data-spacing="aasa"
-                                            data-animation="">
-                                            <div class="moto-widget-text-content moto-widget-text-editable">
-                                                <ul>
-                                                    <li class="moto-text_205"><a target="_self" data-action="page"
-                                                            data-id="1" class="moto-link" href="/">Home</a></li>
-                                                    <li class="moto-text_205"><a target="_self" data-action="page"
-                                                            data-id="10" class="moto-link" href="donate-blood.html">Donate
-                                                            Blood</a></li>
-                                                    <li class="moto-text_205"><a target="_self" data-action="page"
-                                                            data-id="11" class="moto-link"
-                                                            href="donor-center-locations.html">Donor center locations</a>
-                                                    </li>
-                                                    <li class="moto-text_205"><a target="_self" data-action="page"
-                                                            data-id="12" class="moto-link"
-                                                            href="appointment.html">Appointment</a></li>
-                                                    <li class="moto-text_205"><a target="_self" data-action="page"
-                                                            data-id="13" class="moto-link"
-                                                            href="services.html">Services</a></li>
-                                                    <li class="moto-text_205"><a target="_self" data-action="page"
-                                                            data-id="14" class="moto-link" href="support-us.html">Support
-                                                            us</a></li>
-                                                    <li class="moto-text_205"><a target="_self" href="about-us.html"
-                                                            data-action="page" data-id="15" class="moto-link">About
-                                                            Us</a></li>
-                                                    <li class="moto-text_205"><a target="_self" href="contacts.html"
-                                                            data-action="page" data-id="17"
-                                                            class="moto-link">Contacts</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                        style="" data-widget="row.column" data-container="container" data-spacing="aaaa"
-                                        data-bg-position="left top">
-
-
-                                        <div data-widget-id="wid_1521640094_a4syw1kyc"
-                                            class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  "
-                                            data-widget="divider_horizontal" data-preset="2">
-                                            <hr class="moto-widget-divider-line" style="max-width:100%;width:40px;">
-                                        </div>
-                                        <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
-                                            data-widget="text" data-preset="default" data-spacing="aasa"
-                                            data-animation="">
-                                            <div class="moto-widget-text-content moto-widget-text-editable">
-                                                <p class="moto-text_207">Contact us</p>
-                                            </div>
-                                        </div>
-                                        <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
-                                            data-widget="text" data-preset="default" data-spacing="aasa"
-                                            data-animation="">
-                                            <div class="moto-widget-text-content moto-widget-text-editable">
-                                                <p class="moto-text_251">Washington, USA 6036 Richmond,</p>
-                                                <p class="moto-text_251">hwy., Alexandria, VA, 2233</p>
-                                                <p class="moto-text_251">&nbsp;</p>
-                                                <p class="moto-text_251">Phone <a data-action="call" class="moto-link"
-                                                        href="tel:1234567890">+1(409)987 5874</a></p>
-                                                <p class="moto-text_251"><a href="mailto:info@demolink.org"
-                                                        data-action="mail" class="moto-link"><span
-                                                            class="moto-color_custom4">info@demolink.org</span></a></p>
-                                            </div>
-                                        </div>
-                                        <div data-widget-id="wid_1521640172_csm1wbx9p"
-                                            class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto  "
-                                            data-widget="divider_horizontal" data-preset="2">
-                                            <hr class="moto-widget-divider-line" style="max-width:100%;width:40px;">
-                                        </div>
-                                        <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
-                                            data-widget="text" data-preset="default" data-spacing="aasa"
-                                            data-animation="">
-                                            <div class="moto-widget-text-content moto-widget-text-editable">
-                                                <p class="moto-text_207">Social Media</p>
-                                            </div>
-                                        </div>
-                                        <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
-                                            data-widget="text" data-preset="default" data-spacing="aasa"
-                                            data-animation="">
-                                            <div class="moto-widget-text-content moto-widget-text-editable">
-                                                <p class="moto-text_251">View our social media profiles</p>
-                                            </div>
-                                        </div>
-                                        <div id="wid_1521640229_le6bygrfv" data-widget-id="wid_1521640229_le6bygrfv"
-                                            class="moto-widget moto-widget-social-links-extended moto-preset-default moto-align-left moto-align-center_mobile-h moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  "
-                                            data-widget="social_links_extended" data-preset="default">
-                                            <ul class="moto-widget-social-links-extended__list">
-                                                <li
-                                                    class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-1">
-                                                    <a href="#" class="moto-widget-social-links-extended__link"
-                                                        target="_self">
-                                                        <span
-                                                            class="moto-widget-social-links-extended__icon fa">&#xf09a;</span>
-                                                    </a>
-                                                </li>
-                                                <li
-                                                    class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-2">
-                                                    <a href="#" class="moto-widget-social-links-extended__link"
-                                                        target="_self">
-                                                        <span
-                                                            class="moto-widget-social-links-extended__icon fa">&#xf099;</span>
-                                                    </a>
-                                                </li>
-                                                <li
-                                                    class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-3">
-                                                    <a href="#" class="moto-widget-social-links-extended__link"
-                                                        target="_self">
-                                                        <span
-                                                            class="moto-widget-social-links-extended__icon fa">&#xf0d5;</span>
-                                                    </a>
-                                                </li>
-                                                <li
-                                                    class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-4">
-                                                    <a href="#" class="moto-widget-social-links-extended__link"
-                                                        target="_self">
-                                                        <span
-                                                            class="moto-widget-social-links-extended__icon fa">&#xf0e1;</span>
-                                                    </a>
-                                                </li>
-                                                <li
-                                                    class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-5">
-                                                    <a href="#" class="moto-widget-social-links-extended__link"
-                                                        target="_self">
-                                                        <span
-                                                            class="moto-widget-social-links-extended__icon fa">&#xf16d;</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                            <style type="text/css">
-                                            </style>
-                                        </div>
-                                    </div>
-
-
-
-                                </div>
-                            </div>
+                      </div>
+                      <div
+                        class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-medium moto-spacing-bottom-medium moto-spacing-left-auto"
+                        data-widget="text"
+                        data-preset="default"
+                        data-spacing="amma"
+                        data-animation=""
+                      >
+                        <div
+                          class="moto-widget-text-content moto-widget-text-editable"
+                        >
+                          <p class="moto-text_206">
+                            <span class="moto-color5_5"
+                              >It is a long established fact that a reader will
+                              be distracted by the readable content of a page
+                              when looking at its layout. The point of using
+                              Lorem Ipsum is that it has a more-or-less normal
+                              distribution of letters, as opposed to using</span
+                            >
+                          </p>
                         </div>
-                        <div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                            data-grid-type="sm" data-widget="row" data-spacing="aaaa" style=""
-                            data-bg-position="left top" data-draggable-disabled="">
-
-
-                            <div class="container-fluid">
-                                <div class="row" data-container="container">
-
-
-                                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                        style="" data-widget="row.column" data-container="container" data-spacing="aaaa"
-                                        data-bg-position="left top">
-
-
-                                        <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
-                                            data-widget="text" data-preset="default" data-spacing="aaaa"
-                                            data-animation="" data-draggable-disabled="">
-                                            <div class="moto-widget-text-content moto-widget-text-editable">
-                                                <p class="moto-text_251">© 2019 Transport.&nbsp;<a data-action="page"
-                                                        data-id="23" class="moto-link" href="/privacy-policy/">All
-                                                        rights reserved</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-
-                                </div>
-                            </div>
-                        </div>
+                      </div>
                     </div>
+                    <div
+                      class="moto-widget moto-widget-row__column moto-cell col-sm-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                      style=""
+                      data-widget="row.column"
+                      data-container="container"
+                      data-spacing="aaaa"
+                      data-bg-position="left top"
+                    >
+                      <div
+                        data-widget-id="wid_1521639806_u4s3ok2kc"
+                        class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
+                        data-widget="divider_horizontal"
+                        data-preset="2"
+                      >
+                        <hr
+                          class="moto-widget-divider-line"
+                          style="max-width: 100%; width: 40px"
+                        />
+                      </div>
+                      <div
+                        class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
+                        data-widget="text"
+                        data-preset="default"
+                        data-spacing="aasa"
+                        data-animation=""
+                      >
+                        <div
+                          class="moto-widget-text-content moto-widget-text-editable"
+                        >
+                          <p class="moto-text_207">Information</p>
+                        </div>
+                      </div>
+                      <div
+                        class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
+                        data-widget="text"
+                        data-preset="default"
+                        data-spacing="aasa"
+                        data-animation=""
+                      >
+                        <div
+                          class="moto-widget-text-content moto-widget-text-editable"
+                        >
+                          <ul>
+                            <li class="moto-text_205">
+                              <a
+                                target="_self"
+                                data-action="page"
+                                data-id="1"
+                                class="moto-link"
+                                href="/"
+                                >Home</a
+                              >
+                            </li>
+                            <li class="moto-text_205">
+                              <a
+                                target="_self"
+                                data-action="page"
+                                data-id="10"
+                                class="moto-link"
+                                href="donate-blood.html"
+                                >Donate Blood</a
+                              >
+                            </li>
+                            <li class="moto-text_205">
+                              <a
+                                target="_self"
+                                data-action="page"
+                                data-id="11"
+                                class="moto-link"
+                                href="donor-center-locations.html"
+                                >Donor center locations</a
+                              >
+                            </li>
+                            <li class="moto-text_205">
+                              <a
+                                target="_self"
+                                data-action="page"
+                                data-id="12"
+                                class="moto-link"
+                                href="appointment.html"
+                                >Appointment</a
+                              >
+                            </li>
+                            <li class="moto-text_205">
+                              <a
+                                target="_self"
+                                data-action="page"
+                                data-id="13"
+                                class="moto-link"
+                                href="services.html"
+                                >Services</a
+                              >
+                            </li>
+                            <li class="moto-text_205">
+                              <a
+                                target="_self"
+                                data-action="page"
+                                data-id="14"
+                                class="moto-link"
+                                href="support-us.html"
+                                >Support us</a
+                              >
+                            </li>
+                            <li class="moto-text_205">
+                              <a
+                                target="_self"
+                                href="about-us.html"
+                                data-action="page"
+                                data-id="15"
+                                class="moto-link"
+                                >About Us</a
+                              >
+                            </li>
+                            <li class="moto-text_205">
+                              <a
+                                target="_self"
+                                href="contacts.html"
+                                data-action="page"
+                                data-id="17"
+                                class="moto-link"
+                                >Contacts</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="moto-widget moto-widget-row__column moto-cell col-sm-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                      style=""
+                      data-widget="row.column"
+                      data-container="container"
+                      data-spacing="aaaa"
+                      data-bg-position="left top"
+                    >
+                      <div
+                        data-widget-id="wid_1521640094_a4syw1kyc"
+                        class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
+                        data-widget="divider_horizontal"
+                        data-preset="2"
+                      >
+                        <hr
+                          class="moto-widget-divider-line"
+                          style="max-width: 100%; width: 40px"
+                        />
+                      </div>
+                      <div
+                        class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
+                        data-widget="text"
+                        data-preset="default"
+                        data-spacing="aasa"
+                        data-animation=""
+                      >
+                        <div
+                          class="moto-widget-text-content moto-widget-text-editable"
+                        >
+                          <p class="moto-text_207">Contact us</p>
+                        </div>
+                      </div>
+                      <div
+                        class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
+                        data-widget="text"
+                        data-preset="default"
+                        data-spacing="aasa"
+                        data-animation=""
+                      >
+                        <div
+                          class="moto-widget-text-content moto-widget-text-editable"
+                        >
+                          <p class="moto-text_251">
+                            Washington, USA 6036 Richmond,
+                          </p>
+                          <p class="moto-text_251">
+                            hwy., Alexandria, VA, 2233
+                          </p>
+                          <p class="moto-text_251">&nbsp;</p>
+                          <p class="moto-text_251">
+                            Phone
+                            <a
+                              data-action="call"
+                              class="moto-link"
+                              href="tel:1234567890"
+                              >+1(409)987 5874</a
+                            >
+                          </p>
+                          <p class="moto-text_251">
+                            <a
+                              href="mailto:info@demolink.org"
+                              data-action="mail"
+                              class="moto-link"
+                              ><span class="moto-color_custom4"
+                                >info@demolink.org</span
+                              ></a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        data-widget-id="wid_1521640172_csm1wbx9p"
+                        class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
+                        data-widget="divider_horizontal"
+                        data-preset="2"
+                      >
+                        <hr
+                          class="moto-widget-divider-line"
+                          style="max-width: 100%; width: 40px"
+                        />
+                      </div>
+                      <div
+                        class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
+                        data-widget="text"
+                        data-preset="default"
+                        data-spacing="aasa"
+                        data-animation=""
+                      >
+                        <div
+                          class="moto-widget-text-content moto-widget-text-editable"
+                        >
+                          <p class="moto-text_207">Social Media</p>
+                        </div>
+                      </div>
+                      <div
+                        class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto"
+                        data-widget="text"
+                        data-preset="default"
+                        data-spacing="aasa"
+                        data-animation=""
+                      >
+                        <div
+                          class="moto-widget-text-content moto-widget-text-editable"
+                        >
+                          <p class="moto-text_251">
+                            View our social media profiles
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        id="wid_1521640229_le6bygrfv"
+                        data-widget-id="wid_1521640229_le6bygrfv"
+                        class="moto-widget moto-widget-social-links-extended moto-preset-default moto-align-left moto-align-center_mobile-h moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                        data-widget="social_links_extended"
+                        data-preset="default"
+                      >
+                        <ul class="moto-widget-social-links-extended__list">
+                          <li
+                            class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-1"
+                          >
+                            <a
+                              href="#"
+                              class="moto-widget-social-links-extended__link"
+                              target="_self"
+                            >
+                              <span
+                                class="moto-widget-social-links-extended__icon fa"
+                                >&#xf09a;</span
+                              >
+                            </a>
+                          </li>
+                          <li
+                            class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-2"
+                          >
+                            <a
+                              href="#"
+                              class="moto-widget-social-links-extended__link"
+                              target="_self"
+                            >
+                              <span
+                                class="moto-widget-social-links-extended__icon fa"
+                                >&#xf099;</span
+                              >
+                            </a>
+                          </li>
+                          <li
+                            class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-3"
+                          >
+                            <a
+                              href="#"
+                              class="moto-widget-social-links-extended__link"
+                              target="_self"
+                            >
+                              <span
+                                class="moto-widget-social-links-extended__icon fa"
+                                >&#xf0d5;</span
+                              >
+                            </a>
+                          </li>
+                          <li
+                            class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-4"
+                          >
+                            <a
+                              href="#"
+                              class="moto-widget-social-links-extended__link"
+                              target="_self"
+                            >
+                              <span
+                                class="moto-widget-social-links-extended__icon fa"
+                                >&#xf0e1;</span
+                              >
+                            </a>
+                          </li>
+                          <li
+                            class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-5"
+                          >
+                            <a
+                              href="#"
+                              class="moto-widget-social-links-extended__link"
+                              target="_self"
+                            >
+                              <span
+                                class="moto-widget-social-links-extended__icon fa"
+                                >&#xf16d;</span
+                              >
+                            </a>
+                          </li>
+                        </ul>
+                        <style type="text/css"></style>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <div
+                class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                data-grid-type="sm"
+                data-widget="row"
+                data-spacing="aaaa"
+                style=""
+                data-bg-position="left top"
+                data-draggable-disabled=""
+              >
+                <div class="container-fluid">
+                  <div class="row" data-container="container">
+                    <div
+                      class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                      style=""
+                      data-widget="row.column"
+                      data-container="container"
+                      data-spacing="aaaa"
+                      data-bg-position="left top"
+                    >
+                      <div
+                        class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                        data-widget="text"
+                        data-preset="default"
+                        data-spacing="aaaa"
+                        data-animation=""
+                        data-draggable-disabled=""
+                      >
+                        <div
+                          class="moto-widget-text-content moto-widget-text-editable"
+                        >
+                          <p class="moto-text_251">
+                            © 2019 Transport.&nbsp;<a
+                              data-action="page"
+                              data-id="23"
+                              class="moto-link"
+                              href="/privacy-policy/"
+                              >All rights reserved</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </footer>
 
-
-
     <div data-moto-back-to-top-button class="moto-back-to-top-button">
-        <a ng-click="toTop($event)" class="moto-back-to-top-button-link">
-            <span class="moto-back-to-top-button-icon fa"></span>
-        </a>
+      <a ng-click="toTop($event)" class="moto-back-to-top-button-link">
+        <span class="moto-back-to-top-button-icon fa"></span>
+      </a>
     </div>
-    <script src="mt-includes/js/website.assets.min.js?_build=1632918612" type="text/javascript"
-        data-cfasync="false"></script>
+    <script
+      src="mt-includes/js/website.assets.min.js?_build=1632918612"
+      type="text/javascript"
+      data-cfasync="false"
+    ></script>
     <script type="text/javascript" data-cfasync="false">
-        var websiteConfig = websiteConfig || {};
-        websiteConfig.address = 'https://template79832.motopreview.com/';
-        websiteConfig.addressHash = 'f73d5bf3fa0d37bb76bd79b197423702';
-        websiteConfig.apiUrl = '/api.php';
-        websiteConfig.preferredLocale = 'en_US';
-        websiteConfig.preferredLanguage = websiteConfig.preferredLocale.substring(0, 2);
-        websiteConfig.back_to_top_button = { "topOffset": 300, "animationTime": 500, "type": "theme" };
-        websiteConfig.popup_preferences = { "loading_error_message": "The content could not be loaded." };
-        websiteConfig.lazy_loading = { "enabled": true };
-        websiteConfig.cookie_notification = { "enabled": false, "content": "<p class=\"moto-text_normal\">This website uses cookies to ensure you get the best experience on our website.<\/p>", "content_hash": "6610aef7f7138423e25ee33c75f23279", "controls": { "visible": "close,accept", "accept": { "label": "Got it", "preset": "default", "size": "medium", "cookie_lifetime": 365 } } };
-        angular.module('website.plugins', []);
+      var websiteConfig = websiteConfig || {};
+      websiteConfig.address = "https://template79832.motopreview.com/";
+      websiteConfig.addressHash = "f73d5bf3fa0d37bb76bd79b197423702";
+      websiteConfig.apiUrl = "/api.php";
+      websiteConfig.preferredLocale = "en_US";
+      websiteConfig.preferredLanguage = websiteConfig.preferredLocale.substring(
+        0,
+        2
+      );
+      websiteConfig.back_to_top_button = {
+        topOffset: 300,
+        animationTime: 500,
+        type: "theme",
+      };
+      websiteConfig.popup_preferences = {
+        loading_error_message: "The content could not be loaded.",
+      };
+      websiteConfig.lazy_loading = { enabled: true };
+      websiteConfig.cookie_notification = {
+        enabled: false,
+        content:
+          '<p class="moto-text_normal">This website uses cookies to ensure you get the best experience on our website.<\/p>',
+        content_hash: "6610aef7f7138423e25ee33c75f23279",
+        controls: {
+          visible: "close,accept",
+          accept: {
+            label: "Got it",
+            preset: "default",
+            size: "medium",
+            cookie_lifetime: 365,
+          },
+        },
+      };
+      angular.module("website.plugins", []);
     </script>
-    <script src="mt-includes/js/website.min.js?_build=1632918598" type="text/javascript" data-cfasync="false"></script>
-    <script type="text/javascript">$.fn.motoGoogleMap.setApiKey('AIzaSyCPbz3W389x_owB2TlrqPuMEYCTFVuRvMY');</script>
-
-
-
-</body>
-
+    <script
+      src="mt-includes/js/website.min.js?_build=1632918598"
+      type="text/javascript"
+      data-cfasync="false"
+    ></script>
+    <script type="text/javascript">
+      $.fn.motoGoogleMap.setApiKey("AIzaSyCPbz3W389x_owB2TlrqPuMEYCTFVuRvMY");
+    </script>
+  </body>
 </html>
