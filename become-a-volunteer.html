@@ -169,7 +169,7 @@
             align-self: start;
             margin-left: 10%;
         }
-        #vol-form > input{
+        .inp-box{
             margin-bottom: 50px;
             width: 80%;
         }
@@ -178,6 +178,34 @@
             text-align: center;
             font-size: 35px;
         }
+        #submit-button{
+            font-size: 25px; 
+            justify-content: center; 
+            width: 15%; 
+            background-color: #ee3d32; 
+            color: whitesmoke;
+        }
+        @media screen and (max-width: 1300px) {
+            #submit-button{
+                width: 30%;
+            }
+        }
+        @media screen and (max-width: 650px) {
+            #submit-button{
+                width: 40%;
+            }
+            .inp-box{
+                font-size: 23px;
+            }
+        }
+        @media screen and (max-width: 440px) {
+            #submit-button{
+                width: 50%;
+            }
+            .inp-box{
+                font-size: 15px;
+            }
+        }
 
     </style>
 
@@ -185,15 +213,15 @@
 
     <form id="vol-form" action="backend-action-address" method="POST">
         <label for="name">Name</label>
-        <input type="text" name="name">
+        <input class="inp-box" type="text" name="name">
         <label for="phone-no.">Phone No.</label>
-        <input type="tel" name="phone-no.">
+        <input class="inp-box" type="tel" name="phone-no.">
         <label for="email">Email Address</label>
-        <input type="email" name="e-address">
+        <input class="inp-box" type="email" name="e-address">
         <label for="dob">Date Of Birth</label>
-        <input type="date" name="dob" style="color: rgb(155, 155, 155);">
+        <input class="inp-box" type="date" name="dob" style="color: rgb(155, 155, 155);">
 
-        <input type="submit" style="font-size: 25px; justify-content: center; width: 15%; background-color: #ee3d32; color: whitesmoke;">
+        <input type="submit" id="submit-button">
 
     </form>
 
