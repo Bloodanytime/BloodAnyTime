@@ -791,6 +791,7 @@
             </div>
           </div>
         </div>
+
       </section>
     </div>
     <footer
@@ -1286,57 +1287,53 @@
                           </p>
                         </div>
                       </div>
+
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </footer>
-    <div data-moto-back-to-top-button class="moto-back-to-top-button">
-      <a ng-click="toTop($event)" class="moto-back-to-top-button-link">
-        <span class="moto-back-to-top-button-icon fa"></span>
-      </a>
+
     </div>
-    <script
-      src="mt-includes/js/website.assets.min.js?_build=1632918612"
-      type="text/javascript"
-      data-cfasync="false"
-    ></script>
-    <script type="text/javascript" data-cfasync="false">
-      var websiteConfig = websiteConfig || {};
-      websiteConfig.address = "https://template79832.motopreview.com/";
-      websiteConfig.addressHash = "f73d5bf3fa0d37bb76bd79b197423702";
-      websiteConfig.apiUrl = "/api.php";
-      websiteConfig.preferredLocale = "en_US";
-      websiteConfig.preferredLanguage = websiteConfig.preferredLocale.substring(
-        0,
-        2
-      );
-      websiteConfig.back_to_top_button = {
-        topOffset: 300,
-        animationTime: 500,
-        type: "theme",
-      };
-      websiteConfig.popup_preferences = {
-        loading_error_message: "The content could not be loaded.",
-      };
-      websiteConfig.lazy_loading = { enabled: true };
-      websiteConfig.cookie_notification = {
-        enabled: false,
-        content:
-          '<p class="moto-text_normal">This website uses cookies to ensure you get the best experience on our website.<\/p>',
-        content_hash: "6610aef7f7138423e25ee33c75f23279",
-        controls: {
-          visible: "close,accept",
-          accept: {
-            label: "Got it",
-            preset: "default",
-            size: "medium",
-            cookie_lifetime: 365,
-          },
+</footer>
+  <div data-moto-back-to-top-button class="moto-back-to-top-button">
+    <a ng-click="toTop($event)" class="moto-back-to-top-button-link">
+      <span class="moto-back-to-top-button-icon fa"></span>
+    </a>
+  </div>
+  <script src="mt-includes/js/website.assets.min.js?_build=1632918612" type="text/javascript"
+    data-cfasync="false"></script>
+  <script type="text/javascript" data-cfasync="false">
+    var websiteConfig = websiteConfig || {};
+    websiteConfig.address = "https://template79832.motopreview.com/";
+    websiteConfig.addressHash = "f73d5bf3fa0d37bb76bd79b197423702";
+    websiteConfig.apiUrl = "/api.php";
+    websiteConfig.preferredLocale = "en_US";
+    websiteConfig.preferredLanguage = websiteConfig.preferredLocale.substring(
+      0,
+      2
+    );
+    websiteConfig.back_to_top_button = {
+      topOffset: 300,
+      animationTime: 500,
+      type: "theme",
+    };
+    websiteConfig.popup_preferences = {
+      loading_error_message: "The content could not be loaded.",
+    };
+    websiteConfig.lazy_loading = { enabled: true };
+    websiteConfig.cookie_notification = {
+      enabled: false,
+      content:
+        '<p class="moto-text_normal">This website uses cookies to ensure you get the best experience on our website.<\/p>',
+      content_hash: "6610aef7f7138423e25ee33c75f23279",
+      controls: {
+        visible: "close,accept",
+        accept: {
+          label: "Got it",
+          preset: "default",
+          size: "medium",
+          cookie_lifetime: 365,
+
         },
       };
       angular.module("website.plugins", []);
